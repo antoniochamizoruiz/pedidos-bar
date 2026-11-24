@@ -1,0 +1,46 @@
+{
+  "name": "Bar La Esquina",
+  "tables": 12,
+  "currency": "EUR",
+  "timezone": "Europe/Madrid",
+  "businessDayStartsAt": 6,
+  "paymentNote": "El pago se hace al final, en barra.",
+  "categories": [
+    {
+      "name": "Bebidas",
+      "items": [
+        { "id": "cana", "name": "Caña", "desc": "Cerveza de barril, 20 cl", "price": 1.8 },
+        { "id": "tinto-verano", "name": "Tinto de verano", "desc": "Vaso", "price": 2.5 },
+        { "id": "vino-tinto", "name": "Copa de vino tinto", "desc": "Crianza de la casa", "price": 2.8 },
+        { "id": "refresco", "name": "Refresco", "desc": "Cola, naranja o limón", "price": 2.2 },
+        { "id": "agua", "name": "Agua mineral", "desc": "50 cl", "price": 1.5 },
+        { "id": "cafe", "name": "Café", "desc": "Solo, cortado o con leche", "price": 1.4 }
+      ]
+    },
+    {
+      "name": "Tapas",
+      "items": [
+        { "id": "tortilla", "name": "Tortilla de patatas", "desc": "Pincho", "price": 3.0 },
+        { "id": "croquetas", "name": "Croquetas caseras", "desc": "6 unidades", "price": 7.5 },
+        { "id": "ensaladilla", "name": "Ensaladilla rusa", "desc": "Tapa", "price": 3.5 },
+        { "id": "bravas", "name": "Patatas bravas", "desc": "Tapa", "price": 3.5 }
+      ]
+    },
+    {
+      "name": "Raciones",
+      "items": [
+        { "id": "jamon", "name": "Jamón ibérico", "desc": "Ración para compartir", "price": 16.0 },
+        { "id": "queso", "name": "Queso curado", "desc": "Ración para compartir", "price": 9.0 },
+        { "id": "calamares", "name": "Calamares a la romana", "desc": "Ración", "price": 11.0 },
+        { "id": "montadito-lomo", "name": "Montaditos de lomo", "desc": "4 unidades", "price": 8.0 }
+      ]
+    },
+    {
+      "name": "Postres",
+      "items": [
+        { "id": "tarta-queso", "name": "Tarta de queso", "desc": "Porción", "price": 4.5 },
+        { "id": "flan", "name": "Flan casero", "desc": "Con nata", "price": 3.5 }
+      ]
+    }
+  ]
+}

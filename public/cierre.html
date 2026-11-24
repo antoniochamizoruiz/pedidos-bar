@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Cierre de caja</title>
+<link rel="stylesheet" href="/estilos.css">
+</head>
+<body>
+<header class="bar-head no-print">
+  <h1>Cierre de caja</h1>
+  <div class="bar-tools">
+    <a class="btn btn-small" href="/barra">Volver a barra</a>
+  </div>
+</header>
+
+<div class="wrap wrap-wide">
+  <div class="cierre-controls no-print">
+    <div class="field">
+      <label for="day">Día</label>
+      <input id="day" type="date">
+    </div>
+    <button class="btn" id="refresh" type="button">Actualizar</button>
+    <button class="btn" id="print" type="button">Imprimir</button>
+  </div>
+
+  <div class="error" id="err" role="alert" hidden></div>
+  <div class="notice info" id="ok" role="status" hidden></div>
+
+  <main id="report" aria-live="polite"><p class="load-msg">Calculando…</p></main>
+
+  <section class="no-print" aria-labelledby="hist-title">
+    <h2 class="section-title" id="hist-title">Cierres guardados</h2>
+    <div id="history"></div>
+  </section>
+</div>
+<script src="/cierre.js"></script>
+</body>
+</html>

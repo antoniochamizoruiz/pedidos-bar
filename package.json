@@ -1,0 +1,13 @@
+{
+  "name": "pedidos-qr-bar",
+  "version": "1.0.0",
+  "description": "Pedidos por QR para un bar: carta del cliente, panel de barra en directo y QR por mesa.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
